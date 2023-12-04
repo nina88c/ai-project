@@ -8,11 +8,6 @@ function displayAffirmation(response) {
     });
 }
 
-
-
-
-
-
 function generateAffirmation(event) {
     event.preventDefault();
     let poemElement = document.querySelector("#affirmation");
