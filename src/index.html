@@ -1,41 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Affirmations</title>
-  <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-  <link href="/src/style.css" rel="stylesheet"/>
-</head>
+  <head>
+    <title>Affirmations</title>
+    <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+   
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+   
+    <link href="/src/style.css" rel="stylesheet"/>
 
-<body>
-  <div class="section">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  </head>
+  
+  
+  
+  <body>
+   <div class="section">
     <header>
-      <h1>Daily <br/> Affirmations</h1>
+    <h1>Daily <br/> Affirmations</h1>
     </header>
 
-    <main class="">
-      <form id="affirmation-generator-form" action="#">
-        <input type="text" placeholder="Please enter your name"
-          autofocus 
-          required
-          autocomplete="off"
-          class="instructions"
-          id="user-instructions"
-        />
-        <input type="submit" class="submit"/>
-      </form>
-    </main>
-    
-    <div class="affirmation section hidden blink" id="affirmation"></div>
-    
-    <footer>
-      <h4>Coded by <a href="https://github.com/nina88c/ai-project" class="delina-link">Delina Carnaffin</a></h4>
-    </footer>
-  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <script src="/src/index.js"></script>
-</body>
+<main class="">
+  <form id="affirmation-generator-form">
+    <input type="text" placeholder="please enter your name "
+    autofocus 
+  required
+  autocomplete="off"
+  class="instructions"
+  id="user-instructions"
+    />
+    <input type="submit" class="submit"/>
+    
+  </form>
+  
+</main>
+<div class="affirmation section hidden blink" id="affirmation"></div>
+
+
+
+
+
+
+    <footer> <h4>Coded by <a href="https://github.com/nina88c/ai-project" class="delina-link">Delina Carnaffin</a></h4></footer>
+ </div>
+        <script src="/src/index.js"></script>
+  </body>
 </html>
