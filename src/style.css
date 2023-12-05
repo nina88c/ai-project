@@ -1,0 +1,87 @@
+body{
+    background-color:  #bbe4e9; 
+    margin: 120px auto;
+  max-width: 600px;
+
+}
+
+img{
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+.section{
+   background: #ffcbcb; 
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border: 2px solid black;
+}
+.section-blue{
+   background:  #bbe4e9; 
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  border: 2px solid black;
+}
+
+
+h1{
+    font-family: Abril Fatface;
+    text-align: center;
+    color: black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 55%;
+  padding: 15px 20px;
+  color: #333;
+  border: 1px solid #E79AB4;
+  border-radius: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+.submit{
+  width: 25%;
+  padding: 15px 20px;
+  color: #333;
+  border: 1px solid #E79AB4;
+  border-radius: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+input:hover,
+input:focus {
+  border: 2px solid ;
+  color: black
+}
+
+.name strong{
+color: #bbe4e9; 
+}
+
+.hidden{
+    display: none;
+}
+@keyframes blink{
+  50% {
+opacity: 0;
+  }
+}
+.generating{
+    animation: blink 1s step-start 0s infinite;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+.delina-link{
+    color: #E79AB4;
+}
