@@ -54,6 +54,7 @@ input {
   border-radius: 20px;
   margin-right: 10px;
   text-align: center;
+ background-color: transparent;
 }
 
 input:hover,
