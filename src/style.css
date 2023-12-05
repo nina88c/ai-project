@@ -62,9 +62,7 @@ input:focus {
   color: black
 }
 
-.name strong{
-color: #bbe4e9; 
-}
+
 
 .hidden{
     display: none;
