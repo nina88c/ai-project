@@ -14,7 +14,7 @@ function generateName(event) {
     
     let instructionsInput = document.querySelector("#user-instructions");
     let apiKey = "f6baffbd4tea0o94df351e9ea09c0c43";
-   let context = "You are a baby name generator.You are a baby name generator! You give similar baby names like the user inputs in a BULLET POINTED LIST.";
+   let context = "You are a baby name generator! You give similar baby names like the user inputs in a BULLET POINTED LIST.";
    let prompt = `generate a short affirmation for your troubles ${instructionsInput.value}`;
     let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
