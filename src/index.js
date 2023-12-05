@@ -20,7 +20,7 @@ function generateName(event) {
 
     let babyNameElement = document.querySelector("#name");
     babyNameElement.classList.remove("hidden");
-    babyNameElement.innerHTML = `<div class="generating">...Generating similar baby names like, ${instructionsInput.value} for you...</div>`;
+    babyNameElement.innerHTML = `<div class="generating">...Generating similar baby names like, ${instructionsInput.value}...</div>`;
     
     axios.get(apiUrl).then(displayNames);
    
